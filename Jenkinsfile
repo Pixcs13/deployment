@@ -1,8 +1,6 @@
 pipeline {
     agent any
-        environment {
-        PORT = "5000"
-    }
+    stages {
     //  environment {
     //     MYSQL_ROOT_PASSWORD = credentials("MYSQL_ROOT_PASSWORD")
     // }
@@ -38,3 +36,4 @@ pipeline {
         }
 
     }
+}
